@@ -17,7 +17,7 @@ The script uses html GET request for it's parameters.
 * if p is provided a password will be appended to the url. For example,```http://example.com/ts.html?p=goodpass``` would redirect to ```ts3server://example.com?password=goodpass```
 
 #### 'n' is Bookmark Name
-```http://example.com/ts.html?n=My%20Teamspeak%20Server``` would redirect to ```ts3server://example.com?addbookmark=My%20Teamspeak%20Server```
+* ```http://example.com/ts.html?n=My%20Teamspeak%20Server``` would redirect to ```ts3server://example.com?addbookmark=My%20Teamspeak%20Server```
 
  #### Any combination would be valid.
 * if 'n' and 'p' where provided, both arguments would be passed. For example, ```http://example.com/ts.html?p=goodpass&n=My%20Teamspeak%20Server``` would redirect to ```ts3server://example.com?password=goodpass&addbookmark=My%20Teamspeak%20Server```
